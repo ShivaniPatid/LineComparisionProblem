@@ -28,11 +28,9 @@ namespace LineComparision
             int q2 = Convert.ToInt32(Console.ReadLine());
 
             double length1 = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2));
-            Console.WriteLine("Length of line is " + length1);
-
+           
             double length2 = Math.Sqrt(Math.Pow((p2 - p1), 2) + Math.Pow((q2 - q1), 2));
-            Console.WriteLine("Length of line is " + length2);
-
+           
             if (length1.Equals(length2))
             {
                 Console.WriteLine("The length of two lines are equal");
